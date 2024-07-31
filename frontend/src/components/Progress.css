@@ -1,0 +1,96 @@
+/* Container for the entire progress section */
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffccf9, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading for the progress section */
+.progress-heading {
+    font-size: 2.5rem;
+    color: #ff1493;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px #ff69b4;
+}
+
+/* Container for each chart */
+.chart-container {
+    width: 80%;
+    max-width: 600px; /* Adjusted max-width to make charts smaller */
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for charts */
+.chart-heading {
+    font-size: 1.8rem;
+    color: #ff69b4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the bar and doughnut charts */
+.chart-container canvas {
+    max-width: 100%;
+    height: 300px; /* Set height to control chart size */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Container for images */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Images within the progress section */
+.progress-image {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* General styling for buttons (if any are added) */
+button {
+    padding: 10px 20px;
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff69b4;
+    transform: translateY(-2px);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 20, 147, 0.6);
+}
+
+/* Ensure the chart titles and legends are clear and easy to read */
+.chart-container .chartjs-render-monitor {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Additional spacing and styles for the chart legends */
+.chart-container .chart-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

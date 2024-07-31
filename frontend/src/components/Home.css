@@ -1,0 +1,42 @@
+.home-container {
+    background-image: url('../assets/ft-3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+.quote-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.quote-section .sub-quote {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+    background-color: #f05871;
+    border: none;
+    padding: 15px 30px;
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #e64e2c;
+    /* background-color: #f05871; */
+}

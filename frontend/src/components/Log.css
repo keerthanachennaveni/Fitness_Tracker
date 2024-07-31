@@ -1,0 +1,181 @@
+
+.log-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.log-box {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+.log-heading.red {
+    color: red;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.blue {
+    background-color: blue;
+    color: white;
+} 
+
+
+
+
+
+
+
+.log-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffccf9, #ffffff);
+    padding: 20px;
+  }
+  
+  .log-box {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px 50px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .log-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff1493; /* Deep pink color for the heading */
+  }
+  
+  .red {
+    color: #ff1493; /* Deep pink color */
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff69b4; /* Pink border color */
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus {
+    border-color: #ff1493; /* Darker pink border on focus */
+    box-shadow: 0 0 8px rgba(255, 20, 147, 0.4); /* Pink shadow */
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: #ff69b4; /* Placeholder pink color */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #ff1493; /* Deep pink button */
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded button */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff69b4; /* Lighter pink on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 20, 147, 0.6); /* Pink shadow */
+  }
+  
+  .blue {
+    background-color: #ff69b4;
+  }
+  
+  .blue:hover {
+    background-color: #ff1493;
+  }
+  
+  .log-box h2 {
+    margin-bottom: 20px;
+    color: #ff1493; /* Pink heading color */
+  }
+  
+  .log-box p {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .log-box input[type="text"],
+  .log-box input[type="date"] {
+    margin-bottom: 20px;
+    border-radius: 15px; /* Rounded input fields */
+    border: 2px solid #ff69b4; /* Pink border color */
+    padding: 10px;
+    font-size: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .log-box input[type="text"]:focus,
+  .log-box input[type="date"]:focus {
+    border-color: #ff1493; /* Pink border on focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 20, 147, 0.4); /* Pink shadow */
+  }
+  
+  .log-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff69b4; /* Pink button color */
+    color: white;
+    border: none;
+    border-radius: 15px; /* Rounded button */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .log-box button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  .log-box button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 20, 147, 0.4); /* Pink shadow */
+  }
+  
+  
+  .log-box .form-group {
+    margin-bottom: 15px;
+  }
+  
+  
+  .schedule-gap {
+    margin-top: 50px;
+  }
+  
